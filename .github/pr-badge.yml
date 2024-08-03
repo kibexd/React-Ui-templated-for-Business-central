@@ -15,3 +15,10 @@
   message: "PR-$prNumber"
   color: "orange"
   url: "https://gitpod.io/?autostart=true#https://github.com/$owner/$repo/pull/$prNumber"
+  
+- label: "JIRA"
+  message: "$issuePrefix"
+  icon: "jira"
+  color: "blue"
+  url: "https://jira.company.com/browse/$issuePrefix"
+  when: "$issuePrefix"
